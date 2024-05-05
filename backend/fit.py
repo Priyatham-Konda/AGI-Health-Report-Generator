@@ -1,7 +1,7 @@
 import requests
 
 def fit_track():
-    url = "https://v1.nocodeapi.com/priyathamkonda_21/fit/AcVQwVzCLIuGIfHl/aggregatesDatasets?dataTypeName=steps_count,calories_expended&timePeriod=today"
+    url = "YOUR_API_FROM_FITBIT_BY_NOCODEAPI"
     params = {}
     r = requests.get(url = url, params = params)
     result = r.json()

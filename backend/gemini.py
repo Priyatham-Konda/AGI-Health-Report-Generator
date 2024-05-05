@@ -11,7 +11,7 @@ from backend import fit
 from backend import backend
 
 
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyCnGQXDYajtgIrxlSSxdCmnGKxhn_62J6U")
 
 
 # Global declaration
